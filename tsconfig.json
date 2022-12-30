@@ -1,3 +1,8 @@
 {
-	"extends": "@tsconfig/react-native/tsconfig.json"
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx" /* Specify what JSX code is generated. */,
+    "baseUrl": "./" /* Specify the base directory to resolve non-relative module names. */,
+  },
+  "exclude": ["ios"]
 }

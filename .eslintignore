@@ -1,4 +1,7 @@
 node_modules/
 
+ios
+android
+
 .eslintrc.js
 babel.config.js
